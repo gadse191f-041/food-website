@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        
+        <!-- Important to make website responsive -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Restaurant WebSite </title>
+        
+        <!-- Link Style.css file -->
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <section class="navigationBar">
+            <div class="container">
+                <div class="logo">
+                   <img src="logo.png" alt="Restaurant Logo" class="img_res">
+                </div>
+                <div class="menu text_right">
+                    <ul>
+                        <li>
+                            <a href="index.html"> Home </a>
+                        </li>
+                        <li>
+                            <a href="about.html"> About </a>
+                        </li>
+                        <li>
+                            <a href="categories.html"> Categories </a>
+                        </li>
+                        <li>
+                            <a href="food.html"> Foods </a>
+                        </li>
+                        <li>
+                            <a href="#"> Contact </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="clear_fix">
+                </div>
+            </div>
+            
+        </section>
+         <!-- Navigation bar section ends here -->
+      
+        
+        <!--Food order stats here-->
+        <section class="food-search">
+        <div class="container">
+            <h2 class="text-center text-white"> Fill this form to confirm your order...</h2>
+            <form action="order.php" class="order">
+            <fieldset>
+                <legend>Selected Food</legend>
+
+                    <div class="food-menu-img">
+                        <img src="menu-pizza.jpg" alt="Chicke Hawain Pizza" class="img_res img-curve">
+                    </div>
+    
+                    <div class="food-menu-description">
+                        <h3 class="text-center">Food Title</h3>
+                        <p class="food-price text-center">$2.3</p>
+                        <div class="order-label text-center">Quantity
+                        <input type="number" name="qty" class="input-responsive" value="1" required></div>
+                        
+                    </div>
+                <div class="clean_fix">
+                </div>
+                <fieldset>
+                    <legend>Delivery Details</legend>
+                    <div class="order-label">Full Name</div>
+                    <input type="text" name="full-name" placeholder="E.g. Hasheera Malshi" class="delivery-input-responsive" required>
+
+                    <div class="order-label">Phone Number</div>
+                    <input type="tel" name="contact" placeholder="E.g. 9843xxxxxx" class="delivery-input-responsive" required>
+
+                    <div class="order-label">Email</div>
+                    <input type="email" name="email" placeholder="E.g. hasheeramalshi1@gmail.com" class="delivery-input-responsive" required>
+
+                    <div class="order-label">Address</div>
+                    <textarea name="address" rows="10" placeholder="E.g. Street, City, Country" class="delivery-input-responsive" required></textarea>
+
+                    <input type="submit" name="submit" value="Confirm Order" class="btn btn-primary">
+                </fieldset>
+                
+            </fieldset>
+            </form>
+            </div>
+        
+        </section>
+        
+        <!--Food order ends here-->
+        
+        <!--Social media stats here-->
+            <section class="social-media">
+            <div class="container text-center">
+                <ul>
+                    <li>
+                        <a href="#"> <img src="https://icon-icons.com/icons2/642/PNG/48/facebook_icon-icons.com_59205.png"></a>
+                    </li>
+                    <li>
+                        <a href="#"> <img src="https://icon-icons.com/icons2/1211/PNG/48/1491580635-yumminkysocialmedia26_83102.png"> </a>
+                    </li>
+                    <li>
+                        <a href="#"> <img src="https://icon-icons.com/icons2/1211/PNG/48/1491579542-yumminkysocialmedia22_83078.png"> </a>
+                    </li>
+                </ul>
+            </div>
+            
+        </section>
+        <!--Social media ends here-->
+        
+        <!--Footer starts here-->
+             <section class="footer text-center">
+            <div class="container">
+                <p> All rights reserved.Designed by <a href="#"> Hasheera Malshi </a></p>
+            </div>
+            
+        </section>
+        <!--Footer ends here-->
+		
+		
+		
+		
+        
+        
+    </body>
+</html>

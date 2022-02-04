@@ -1,0 +1,286 @@
+/*
+Author:Hasheera Malshi;
+Theme:Restaurant Food order;
+Version=1.0;
+*/
+/* CSS for All */
+body
+{
+    margin: 0 0;
+    padding: 0 0;
+    font-family: sans-serif;
+}
+
+
+.container
+{
+    
+    width: 80%;
+    margin: 0 auto;
+    padding: 1%;
+    
+}
+
+
+.img_res
+{
+    width: 100%;
+}
+.img-curve
+{
+    border-radius: 15px;
+}
+
+
+.text_right
+{
+    text-align: right;
+
+}
+.text-center
+{
+    text-align: center;
+}
+.text-white
+{
+    color: white;
+}
+
+
+.clear_fix
+{
+    clear: both;
+    float: none;
+}
+
+
+a{
+    color: red;
+    text-decoration: none;
+}
+a:hover
+{
+    color: firebrick;
+}
+
+
+.btn
+{
+    padding: 1%;
+    border: none;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+.btn-primary
+{
+    background-color: blueviolet;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+.btn-primary:hover
+{
+    background-color: wheat;
+}
+
+
+.float-container
+{
+    position: relative;
+}
+.float-text
+{
+    position: absolute;
+    bottom: 10px;
+    left: 40%;
+}
+
+h1
+{
+    font-size: 2.5rem;
+    color: #ECF0F1 ;
+}
+h3
+{
+    font-size: 1.5rem;
+}
+h2
+{
+    color: #2f3542;
+    font-size: 2rem;
+}
+
+
+
+/*  CSS for navigation section */
+.logo
+{
+    
+    width: 10%;
+    float: left;
+ 
+}
+.menu
+{
+    line-height: 60px;
+}
+.menu ul
+{
+    list-style-type: none;
+    
+}
+.menu ul li
+{
+    display: inline;
+       padding: 1%; 
+    font-weight: bold;
+
+}
+
+
+/* CSS for Food Search */
+
+.food-search
+{
+    background-image: url(bg.jpg);
+    padding: 6% 6%;
+    background-repeat: repeat;
+    background-size: cover;
+    background-position: center;
+}
+.food-search input[type="search"]
+{
+    width: 50%;
+    padding: 1%;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+}
+
+
+/*CSS for categories */
+.category
+{
+    padding: 4% 0;
+}
+.box
+{
+    
+    width: 30%;
+    float: left;
+    margin: 1%;
+    
+
+}
+
+
+/* CSS for food menu */
+.food-menu-box
+{
+    
+    width: 45%;
+    margin: 1%;
+    float: left;
+    padding: 1%;
+    background-color: white;
+    border-radius: 15px;
+    
+}
+.food-menu
+{
+    background-color:#ececec;
+    padding: 4% 0;
+}
+.food-menu-img
+{
+    width: 35%;
+    float: left;
+    
+}
+food-menu-description
+{
+float: left;
+    
+}
+.food-detail
+{
+    color: grey;
+    font-size: 0.8rem;
+}
+.food-price
+{
+    font-size: 1.2rem;
+    margin: 1% 0;
+    
+}
+
+
+/* CSS for Social*/
+.social-media ul
+{
+    
+    list-style: none;
+}
+.social-media ul li
+{
+    display: inline;
+    padding: 1%;
+}
+
+
+/* CSS for about.html*/
+.content-left
+{
+    float:left;
+	background-color:#000080;
+	opacity:0.5;
+	width: 1000px;
+	margin: 20px;
+	padding:20px;
+	color:black;
+	text-align:left;
+}
+.content-right
+{
+    float:right;
+	background-color:#000080;
+	opacity:0.5;
+	width: 1000px;
+	margin: 20px;
+	padding:20px;
+	color:black;
+	text-align:right;
+}
+.text-color
+{
+    font-weight: bold;
+    color: white;
+}
+
+
+/* CSS for order.html */
+.order{
+    width: 50%;
+    margin: 0 auto;
+}
+.input-responsive{
+    width: 60%;
+    padding: 1%;
+    margin-bottom: 3%;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+.delivery-input-responsive
+{
+    width: 96%;
+    padding: 1%;
+    margin-bottom: 3%;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+.order-label{
+    margin-bottom: 1%; 
+    font-weight: bold;
+}
